@@ -1,0 +1,70 @@
+/* колір заголовку "background: #212121;
+" */
+/* колір основного тексту, та номеру тел. і пошти в хедер "background: #757575;
+" */
+/* колір фокусу background: #2196F3;
+ */
+/* білий background: #FFFFFF; */
+
+/* коліру в футері тел, пошта rgba(255, 255, 255, 0.6) */
+:root {
+  --text-title: #000000;
+  --text-accent-hf: #2196f3;
+  --primery-text-color: #757575;
+  --text-white: #fff;
+  --color-bcg: #2f303a;
+  --mail-tel-footer: rgba(255, 255, 255, 0.6);
+}
+body {
+  background-color: var(--text-white);
+  color: var(--primery-text-color);
+}
+.logo {
+  color: #000000;
+}
+.web {
+  color: #2196f3;
+}
+ul {
+  list-style: none;
+}
+/* header */
+.site-nav .link {
+  color: #212121;
+}
+.link-current {
+  color: var(--text-accent-hf);
+}
+.contact a {
+  color: #757575;
+}
+.contact a:focus,
+.contact a:hover {
+  color: var(--text-accent-hf);
+}
+/* css studio */
+/* section */
+.section-title {
+  color: var(--text-title);
+}
+/* button */
+.section .button {
+  color: var(--text-white);
+  background-color: var(--text-accent-hf);
+}
+.footer {
+  background-color: var(--color-bcg);
+}
+.text-logo-footer {
+  color: #fff;
+}
+.footer .kyiv {
+  color: var(--text-white);
+}
+.footer a {
+  color: var(--mail-tel-footer);
+}
+.footer a:focus,
+.footer a:hover {
+  color: var(--text-accent-hf);
+}
