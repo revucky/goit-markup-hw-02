@@ -29,6 +29,7 @@ body {
   font-family: Raleway;
   font-size: 26px;
   line-height: 1.19;
+  text-decoration: none;
 }
 .web {
   color: #2196f3;
@@ -43,12 +44,15 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .link-current {
   color: var(--text-accent-hf);
+  text-decoration: none;
 }
 .contact a {
   color: #757575;
+  text-decoration: none;
 }
 .contact a:focus,
 .contact a:hover {
@@ -77,9 +81,10 @@ ul {
 .footer .text-logo-footer {
   color: var(--text-white);
   font-family: Raleway;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  text-decoration: none;
 }
 
 .footer .kyiv {
@@ -87,13 +92,13 @@ ul {
 }
 .footer a {
   color: var(--mail-tel-footer);
+  text-decoration: none;
 }
 .footer a:focus,
 .footer a:hover {
   color: var(--text-accent-hf);
 }
 .footer .footer-address {
-  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
 }
