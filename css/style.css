@@ -20,7 +20,7 @@ body {
   background-color: var(--text-white);
   color: var(--primery-text-color);
   letter-spacing: 0.03em;
-  font-family: Roboto sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 .logo {
@@ -46,6 +46,10 @@ ul {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
+.site-nav .link:focus,
+.site-nav .link:hover {
+  color: var(--text-accent-hf);
+}
 .link-current {
   color: var(--text-accent-hf);
   text-decoration: none;
@@ -60,17 +64,33 @@ ul {
 }
 /* css studio */
 /* section */
+.section-title-feature {
+  color: var(--text-title);
+  /* font-style: normal; */
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
 .section-title {
   color: var(--text-title);
   font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
 }
+
 /* button */
 .section .button {
   color: var(--text-white);
   background-color: var(--text-accent-hf);
+}
+.section-title-team {
+  color: var(--text-title);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
 }
 /* footer */
 .footer {
@@ -89,9 +109,11 @@ ul {
 
 .footer .kyiv {
   color: var(--text-white);
+  font-style: normal;
 }
 .footer a {
   color: var(--mail-tel-footer);
+  font-style: normal;
   text-decoration: none;
 }
 .footer a:focus,
@@ -107,21 +129,34 @@ ul {
 .section .button-filter {
   color: var(--text-title);
   background-color: var(--button-filter);
-}
-.section .button-filter:focus,
-.section .button-filter:hover {
-  background-color: var(--text-accent-hf);
-  color: var(--text-white);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
   cursor: pointer;
 }
+.section .button-filter:focus,
+.section .button-filter:hover {
+  background-color: var(--text-accent-hf);
+  color: var(--text-white);
+}
+.section-title-works {
+  color: var(--text-title);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
 .section .title-text-works {
   font-size: 16px;
   line-height: 1.87;
 }
 h1 {
-  color: #fff;
+  color: var(--text-white);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
