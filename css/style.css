@@ -54,6 +54,10 @@ ul {
 .link-current {
   color: var(--text-accent-hf);
   text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .contact a {
   color: #757575;
